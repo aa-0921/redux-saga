@@ -3,6 +3,7 @@ export const SET_NOTES = "SET_NOTES";
 export const LOAD_NOTES = "LOAD_NOTES";
 export const SAVE_NOTES = "SAVE_NOTES";
 
+//渡されてきたnoteを、reducerに引き渡す。
 export const addNote = (note) => ({
   type: ADD_NOTE,
   payload: note,

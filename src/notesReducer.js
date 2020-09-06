@@ -5,7 +5,8 @@ const initialState = {
 }
 
 export const notesReducer = (state = initialState, action) => {
-  switch(action.type){
+  switch (action.type) {
+    //Actionより渡されたpayload(Actionではnote)を追加→Viewに反映される
     case ADD_NOTE: {
       return {...state, notes: [...state.notes, action.payload]}
     }

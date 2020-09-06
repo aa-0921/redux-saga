@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {Provider} from "react-redux"
+import { Provider } from "react-redux"
+
+//storeの定義を別ファイルに分けている
 import {store} from './store'
 
 ReactDOM.render(
